@@ -369,3 +369,39 @@ p {
     line-height: 1.75rem;
     color: var(--gray);
 }
+
+
+/* --------------------------------------purchase-now------------------------------------ */
+
+.purchase-now {
+    background-color: var(--blue);
+    padding: 100px 0px;
+}
+
+.purchase-now p {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 300
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited {
+    border: 1px solid var(--white);
+    padding: 15px 35px;
+    background: transparent;
+    border-color: var(--yellow);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-radius: .1875rem;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    color: var(--yellow);
+    font-weight: 400;
+}
+
+.btn-purchase-now:hover {
+    background-color: var(--yellow);
+    color: white;
+}
