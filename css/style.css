@@ -451,3 +451,65 @@ p {
     text-transform: uppercase;
     font-family: "source sans pro", sans-serif;
 }
+
+
+/* --------------------------------------download-now------------------------------------ */
+
+.download-now img {
+    width: 100%;
+}
+
+.available-on {
+    background-color: var(--blue);
+    margin-top: -8px;
+    position: relative;
+}
+
+.available-tittle {
+    padding-top: 75px;
+}
+
+.available-tittle h2 {
+    color: var(--white);
+    font-size: 30px;
+}
+
+.available-tittle p {
+    color: var(--white);
+}
+
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid var(--blue);
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+}
+
+.available-on-item:hover {
+    background-color: var(--secyellow);
+    color: var(--blue)
+}
+
+.available-on-item:hover i {
+    color: var(--blue)
+}
+
+.available-on-item i {
+    color: var(--yellow);
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+}
+
+.no-padding {
+    padding: 0
+}
+
+.available-on a {
+    text-decoration: none;
+    color: var(--yellow)
+}
