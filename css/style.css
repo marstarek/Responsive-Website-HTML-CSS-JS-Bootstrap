@@ -260,6 +260,11 @@ p {
     padding: .1875rem
 }
 
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: var(--yellow);
+}
+
 .testimonial-caption {
     padding-bottom: 4.375rem;
 }
@@ -404,4 +409,45 @@ p {
 .btn-purchase-now:hover {
     background-color: var(--yellow);
     color: white;
+}
+
+
+/* -----------------------------------counter--------------------------------------- */
+
+.counter {
+    background-image: url("../images/counter-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.counter-overlay {
+    padding: 120px 0px;
+    background: rgba(0, 0, 0, .4)
+}
+
+.counter-item h2 {
+    font-family: "source sans pro", sans-serif;
+    color: var(--white);
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 15px 0px 1px 0px;
+}
+
+.counter-item i {
+    color: var(--yellow);
+    font-size: 60px;
+}
+
+.counter-item p {
+    color: var(--white);
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "source sans pro", sans-serif;
 }
