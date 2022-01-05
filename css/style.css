@@ -612,3 +612,45 @@ p {
 .social-icons ul li a i {
     font-size: 1.25rem;
 }
+
+
+/* -------------------------------------footer------------------------------------- */
+
+.footer {
+    background-color: var(--blue);
+    padding-bottom: 2.1875rem;
+    padding-top: 2.1875rem;
+    border-bottom: .1875rem solid var(--yellow);
+}
+
+#copyright {
+    width: 50%;
+}
+
+#copyright p {
+    color: var(--white)!important;
+    font-weight: 600;
+    font-size: .9375rem;
+    text-transform: uppercase;
+}
+
+#copyright p a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.scroll-top {
+    text-align: right;
+    cursor: pointer;
+}
+
+.scroll-top a {
+    background-color: var(--yellow);
+    padding: 1.125rem;
+    border-radius: .25rem;
+}
+
+.scroll-top a i {
+    color: var(--white);
+    font-size: 1.5625rem;
+}
