@@ -47,3 +47,17 @@ $(document).ready(function() {
         slideMargin: 50,
     });
 });
+
+$(document).ready(function() {
+    $(".counter-num").counterUp({
+        delay: 20,
+        time: 2000,
+    });
+});
+
+// Add animation/ Initialize Woo
+$(document).ready(function() {
+    "use strict";
+
+    new WOW().init();
+});
