@@ -11,12 +11,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -56,6 +58,50 @@ p {
     width: 5.75rem;
     height: 0.0625rem;
     background-color: var(--yellow);
+}
+
+
+/* ------------------------------------NavBar-------------------------------------- */
+
+.navbar-expand-lg {
+    background-color: #ffc900ba;
+    /* border-bottom: 2px solid !important;
+    border-color: var(--yellow) !important; */
+    z-index: 110;
+    transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar .collapse .navbar-nav>li>a {
+    color: var(--white);
+    font-family: "releway", sans-serif;
+    transition: all 1s;
+}
+
+.navbar .collapse .navbar-nav>li>a:hover {
+    color: var(--blue);
+}
+
+.navbar .collapse .navbar-nav>li>a:focus {
+    color: var(--blue);
+}
+
+.navbar-brand {
+    padding: .5625rem .9375rem;
+}
+
+.navbar-brand img {
+    transition: all 1s;
+    width: 9.375rem;
+    height: 2.5rem
+}
+
+.navbar-light .navbar-nav>.active>a,
+.navbar-light .navbar-nav>.active>a:hover,
+.navbar-light .navbar-nav>.active>a:active,
+.navbar-light .navbar-nav>.active>a:focus {
+    background-color: transparent;
+    color: #FFC900
 }
 
 
