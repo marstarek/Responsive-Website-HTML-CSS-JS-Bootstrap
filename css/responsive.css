@@ -37,6 +37,7 @@
     }
     .choose-us-tittle {
         text-align: center;
+        padding-top: 3.125rem;
     }
     .choose-us-tittle h2:after {
         left: 39%;
