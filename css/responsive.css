@@ -1,0 +1,51 @@
+:root {
+    --white: #ffffff;
+    --yellow: #FFC900;
+    --secyellow: #FFF89A;
+    --blue: #1A5F7A;
+    --secblue: #086E7D;
+    --gray: #333;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .header-iphone {
+        display: none;
+    }
+    .header-text,
+    .header-btns {
+        text-align: center;
+        padding: .8rem;
+    }
+    .btn-download {
+        margin-bottom: 1rem;
+    }
+    .navbar-brand img {
+        width: 6.375rem;
+        height: 1.5rem;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .section-tittle h2:after {
+        left: 39%;
+    }
+    .about-iphone img {
+        width: 100%;
+    }
+    .choose-us-tittle {
+        text-align: center;
+    }
+    .choose-us-tittle h2:after {
+        left: 39%;
+        margin-top: 2rem;
+    }
+    .purchase-now {
+        text-align: center;
+    }
+    .available-tittle {
+        text-align: center;
+    }
+}

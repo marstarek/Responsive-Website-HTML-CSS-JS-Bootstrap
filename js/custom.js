@@ -15,13 +15,6 @@ $(document).ready(function() {
                 "margin-top": "0px",
                 opacity: "1",
             });
-            //   $(".navbar-brand img").css({
-            //       height: "35px",
-            //       "padding-top": "0px",
-            //   });
-            //   $(".navbar-nav>li>a").css({
-            //       "padding-top": "15px",
-            //   });
         }
     });
 });
